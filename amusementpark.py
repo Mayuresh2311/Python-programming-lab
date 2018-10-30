@@ -2,11 +2,11 @@ from easygui import *
 import sys
 sum=0
 while 1:
-    msgbox("Welcome to Amusement World")
+    msgbox("Welcome to Amusement World")    #displays a message box containing the given content
 
-    msg ="What is your age?"
-    title = "Verification"
-    choices = ["Above 12","Below 12"]
+    msg ="What is your age?"  #inputing the message content
+    title = "Verification"    #inputing the title content
+    choices = ["Above 12","Below 12"]  #displays the choices available for the user
     choice = buttonbox(msg, title, choices)
     
     if  choice=="Below 12":
